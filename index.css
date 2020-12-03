@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 640px;
+    height: 640px;
+    margin: 40px auto;
+    position: relative;
+}
+.container .btn{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.container .btn span{
+    font-weight: bold;
+    line-height: 80px;
+    width: 200px;
+    height: 80px;
+    color: skyblue;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 170px;
+    margin: auto;
+}
+.container .btn .diffcult{
+    color: rgb(7, 98, 134);
+}
+.container .pausebtn{
+    display: none;
+}
+.container .startbtn .chuji{
+    top: 250px;
+}
+.container .startbtn .zhongji{
+    top: 330px;
+}
+.container .startbtn .gaoji{
+    top: 410px;
+}
+.container .snkwapper{
+    width: 600px;
+    height: 600px;
+    background-color: #225675;
+    border: 20px solid #7dd9ff;
+    position: relative;
+}
+.snkhead{
+    background-color: yellow;
+    border-radius: 50%;
+}
+.snkbody{
+    background-color: #06ecec;
+    border-radius: 50%;
+}
+.food{
+    background-color: #000;
+    border-radius: 50%;
+}
+.container .startbtn .active{
+    color: skyblue;
+}
